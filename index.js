@@ -1,8 +1,8 @@
-$('.navbar').css('visibility', 'hidden');
+﻿$('.navbar').css('visibility', 'hidden');
 $(function() {
     $(window).scroll(function() {
         var scrollVal = $(this).scrollTop();
-        console.log(scrollVal);
+        //console.log(scrollVal);
         if (scrollVal > 0) {
             $('.navbar').css('visibility', 'visible');
         } else {
