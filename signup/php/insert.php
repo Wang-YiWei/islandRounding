@@ -14,7 +14,8 @@ $select = "SELECT * from `MemberInfo` WHERE `account` = '{$account}'";
 $sel_result = mysqli_query($_SESSION['link'],$select);
 
 if($sel_result){
-    // 插入新資料
+    if(mysqli_num_rows($sel_result) == 0){
+        // 插入新資料
     $insert = "INSERT INTO `MemberInfo` (`account`, `passwd`, `nickname`, `email`, `something`)
     VALUE ('{$account}', '{$passwd}', '{$nickname}', '{$email}', '{$something}')";
     $ins_result = mysqli_query($_SESSION['link'],$insert);
@@ -23,7 +24,7 @@ if($sel_result){
         echo "帳號創建成功！";
     else
         echo "帳號創建失敗！";
-
+    }
 }else echo "新增資料失敗";
 
 mysqli_free_result($sel_result);
