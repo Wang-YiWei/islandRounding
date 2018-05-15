@@ -43,7 +43,7 @@ function do_click(event) {
 function do_ajax(account, passwd, nickname, email, something) {
     $.ajax({
         type: "POST",
-        url: "/signup/php/insert.php",
+        url: "./php/insert.php",
         data: {
             account: account,
             passwd: passwd,
