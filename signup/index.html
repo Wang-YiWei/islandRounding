@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>註冊頁面</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/signup/css/form.css">
+</head>
+
+<body>
+    <div id = "signup_page">
+        <h1>
+            Welcome to sign up page 
+        </h1>
+    </div>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="account">Account<span class = "must-fill"> *</span></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="account" name="account" placeholder="Your account" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="passwd">Password<span class = "must-fill"> *</span></label>
+                </div>
+                <div class="col-75">
+                    <input type="password" id="passwd" name="passwd" placeholder="Your password" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="passwd2">Type password again<span class = "must-fill"> *</span></label>
+                </div>
+                <div class="col-75">
+                    <input type="password" id="passwd2" name="passwd2" placeholder="Type password again" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="nickname">Nickname<span class = "must-fill"> *</span></label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="nickname" name="nickname" placeholder="Your nickname" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email<span class = "must-fill"> *</span></label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="something">Write something</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="something" name="something" placeholder="Write something !" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input id="signup" value="Submit" type="button">
+            </div>
+        </form>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/signup/javascript/signup.js" type="text/javascript"></script>
+</body>
+</html>

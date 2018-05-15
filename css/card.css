@@ -1,0 +1,50 @@
+.card {
+    /* width: 250px; */
+    /* height: 480px; */
+    text-align: center;
+    font-family: arial;
+}
+
+.card .intro,
+.card .card-icon {
+    transition: opacity 0.2s, max-height 0.4s, transform 0.2s;
+    opacity: 0;
+    transform: translateY(30px);
+    max-height: 0px;
+}
+
+.card:hover .intro,
+.card:hover .card-icon {
+    opacity: 1;
+    transform: translateY(0);
+    max-height: 200px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.names {
+    color: grey;
+    font-size: 16px;
+}
+
+.intro {
+    font-size: 14px;    
+}
+
+.card-icon {
+    margin: 24px 0;
+}
+
+.card-icon a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}

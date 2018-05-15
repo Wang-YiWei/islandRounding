@@ -1,0 +1,47 @@
+.hero-item h1 {
+    font-size: 3em;
+}
+
+#title,
+.slide-down {
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+
+.hero-text {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.hero-item-right {
+    color: rgb(95, 95, 95);
+}
+
+.wrapper h1:nth-child(1) {
+    font-size: 2em;
+}
+
+.fa-contact-info,
+.down-icon {
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    color: rgb(95, 95, 95);
+}
+
+.fa-contact-info {
+    margin: 0px 8px;
+}
+
+.fa-contact-info:hover,
+.down-icon:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+    .hero-item-right {
+        text-align: center;
+    }
+}
