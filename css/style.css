@@ -44,6 +44,10 @@
     transform: scale(1.2);
 }
 
+#schedule{
+    background-color: #ECEBE6;    
+}
+
 @media screen and (max-width: 600px) {
     .hero-item-right {
         text-align: center;

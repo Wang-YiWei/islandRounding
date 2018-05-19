@@ -59,12 +59,14 @@ function do_ajax(account, passwd, nickname, email, something) {
 function showResult(data) {
     if(data=="帳號創建成功！"){
         var current_url = document.location.toString();
-        var next_url = current_url.replace("/signup/index.html","");
+        var next_url = current_url.replace("/admin/index.php","index.php");
 
         alert(data+"\n馬上為您返回主頁 ！");    
         setTimeout(function () {
             window.location.href = next_url;
         }, 100)
+    }else{
+        alert(data);
     }
 }
 

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant-TW">
 
 <head>
     <title>註冊頁面</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="107暑期環島註冊頁面">
+    <meta name="keywords" content="環島,107,暑假,暑期,islandRounding,IslandRounding">
     <link rel="stylesheet" type="text/css" href="./css/form.css">
 </head>
 

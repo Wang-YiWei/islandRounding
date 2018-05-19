@@ -21,10 +21,10 @@
             <a href="#" class="menu-active">107暑期環島</a>
             <a href="javascript:void(0);" onclick="smoothScroll('about')">關於我們</a>
             <a href="javascript:void(0);" onclick="smoothScroll('schedule')">行程安排</a>
-            <a href="#">每日遊記</a>
+            <a href="./article/index.php">每日遊記</a>
             <a href="#">推薦攜帶用品</a>
             <a href="#">登入</a>
-            <a href="./signup/index.html">註冊</a>
+            <a href="./admin/index.php">註冊</a>
             <a href="javascript:void(0);" class="icon" onclick="responsive_nav()">
                 <i class="fa fa-bars"></i>
             </a>
